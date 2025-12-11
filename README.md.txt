@@ -6,3 +6,4 @@ az vm create \
   --image UbuntuLTS \
   --admin-username azureuser \
   --generate-ssh-keys
+az vnet create --venet name vnet1 --subnet name subnet1
